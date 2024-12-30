@@ -1,0 +1,88 @@
+/* Style global */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f8f4f0;
+  color: #333;
+}
+
+header {
+  background-color: #c0392b;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+#produits {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produit {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px;
+}
+
+.produit img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.produit h3 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+}
+
+.acheter {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.acheter:hover {
+  background-color: #219150;
+}
+
+footer {
+  background-color: #c0392b;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
